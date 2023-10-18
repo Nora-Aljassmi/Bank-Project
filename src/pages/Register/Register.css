@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.reg_form_style {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px;
+
+  height: 400px;
+  flex-wrap: wrap;
+}
+.reg_form_rest {
+  border-style: solid;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  border-color: silver;
+  box-shadow: 0px 0px 7px 7px silver;
+}
+.reg_form_label {
+  color: silver;
+  font-size: xx-large;
+  margin: 1px;
+  font-family: monospace;
+}
+.reg_form_rest img {
+  width: 60px;
+  margin: 18px;
+}
+.reg_form_user {
+  margin: 25px;
+  color: silver;
+  font-family: monospace;
+  font-size: x-large;
+  align-self: center;
+}
+.reg_form_user input {
+  width: 250px;
+  border-style: solid;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.reg_form_password {
+  margin: 25px;
+  color: silver;
+  font-family: monospace;
+  font-size: x-large;
+}
+.reg_form_password input {
+  width: 250px;
+  border-style: solid;
+  height: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+.reg_form_image {
+  margin: 20px;
+}
+.reg_form_image input {
+  height: 27px;
+  color: silver;
+  font-family: monospace;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.reg_form_button {
+  margin: 10px;
+}
+.reg_form_button button {
+  width: 100px;
+  height: 22px;
+  border-radius: 10px;
+  border-style: solid;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: large;
+  color: rgb(88, 81, 81);
+}

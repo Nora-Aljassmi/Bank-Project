@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.transfer_style {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px;
+
+  height: 400px;
+  flex-wrap: wrap;
+}
+.transfer_rest {
+  border-style: solid;
+  width: 400px;
+  height: 500px;
+  text-align: center;
+  border-color: silver;
+  box-shadow: 0px 0px 7px 7px silver;
+}
+.transfer_label {
+  color: silver;
+  font-size: xx-large;
+
+  font-family: monospace;
+}
+.transfer_rest img {
+  width: 60px;
+  margin: 18px;
+}
+.transfer_balance {
+  margin: 15px;
+  color: silver;
+  font-family: monospace;
+  font-size: x-large;
+  align-self: center;
+}
+.transfer_balance input {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.808);
+  margin: 15px;
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+}
+.transfer_user_balance {
+  margin: 25px;
+  color: silver;
+  font-family: monospace;
+  font-size: x-large;
+  align-self: center;
+}
+.transfer_user_balance input {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.808);
+  margin: 15px;
+  color: white;
+  font-family: monospace;
+  font-size: 20px;
+}
+.transfer_button {
+  margin: 40px;
+}
+.transfer_button button {
+  width: 100px;
+  height: 22px;
+  border-radius: 10px;
+  border-style: solid;
+  cursor: pointer;
+  font-family: monospace;
+  font-size: large;
+  color: rgb(88, 81, 81);
+}

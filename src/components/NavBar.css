@@ -1,0 +1,35 @@
+.main_style {
+  background-color: #2e2e2c;
+  height: 30px;
+  border-style: groove;
+  border-radius: 10px;
+  width: "1360px";
+  height: 33px;
+  display: flex;
+
+  gap: 5px;
+  box-shadow: 0px 0px 3px 3px silver;
+}
+.active {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  list-style: "none";
+  border-style: solid;
+  border-radius: 10px;
+  font-family: monospace;
+}
+a:hover {
+  background-color: rgba(240, 255, 240, 0.26);
+}
+.logOut {
+  position: relative;
+  border-color: white;
+  border-style: solid;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #2e2e2c;
+  color: white;
+  font-family: monospace;
+  list-style: "none";
+}

@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.transactions_History_style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  flex-wrap: wrap;
+
+  margin: 50px;
+}
+.transactions_card {
+  border-style: solid;
+  width: 250px;
+  height: 250px;
+  text-align: center;
+  border-color: silver;
+  box-shadow: 0px 0px 10px 10px silver;
+  border-radius: 20px;
+  margin: 35px;
+  /* gap: 60px; */
+}
+
+.transactions_card h1 {
+  margin: 10px;
+  color: red;
+  font-family: monospace;
+}
+.transactions_card h2 {
+  margin: 25px;
+  color: yellow;
+  font-family: monospace;
+}
+.transactions_card h3 {
+  margin: 25px;
+  color: green;
+  font-family: monospace;
+}
